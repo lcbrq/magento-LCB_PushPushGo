@@ -1,0 +1,10 @@
+<?php
+/**
+ * @var LCB_PushPushGo_Block_Index $this
+ */
+$jsKey = $this->getJsKey();
+?>
+
+<?php if ($jsKey): ?>
+    <script charset="UTF-8" src="https://cdn.pushpushgo.com/js/<?php echo $jsKey; ?>.js" async="async"></script>
+<?php endif; ?>

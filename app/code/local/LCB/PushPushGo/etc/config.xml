@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_PushPushGo>
+            <version>0.1.0</version>
+        </LCB_PushPushGo>
+    </modules>
+    <global>
+        <helpers>
+            <lcb_pushpushgo>
+                <class>LCB_PushPushGo_Helper</class>
+            </lcb_pushpushgo>
+        </helpers>
+        <blocks>
+            <lcb_pushpushgo>
+                <class>LCB_PushPushGo_Block</class>
+            </lcb_pushpushgo>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <lcb_pushpushgo>
+                    <file>pushpushgo.xml</file>
+                </lcb_pushpushgo>
+            </updates>
+        </layout>
+    </frontend>
+</config> 

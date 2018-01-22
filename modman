@@ -1,0 +1,4 @@
+app/code/local/LCB/PushPushGo
+app/design/frontend/base/default/layout/pushpushgo.xml
+app/design/frontend/base/default/template/pushpushgo
+app/etc/modules/LCB_PushPushGo.xml
