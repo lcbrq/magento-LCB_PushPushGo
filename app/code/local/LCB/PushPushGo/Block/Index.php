@@ -20,11 +20,11 @@ class LCB_PushPushGo_Block_Index extends Mage_Core_Block_Template
      */
     protected function _toHtml()
     {
-        if (!$this->getTemplate() || !Mage::getStoreConfig('pushpushgo/general/enabled', Mage::app()->getStore())) {
+        if (!Mage::getStoreConfig('pushpushgo/general/enabled', Mage::app()->getStore())) {
             return '';
         }
-        $html = $this->renderView();
-        return $html;
+
+        return parent::_toHtml();
     }
 
 }
