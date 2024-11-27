@@ -1,4 +1,4 @@
 # LCB_PushPushGo
 
-Module skeleton for PushPushGo integration
+Magento 1 / OpenMage module skeleton for PushPushGo integration
 

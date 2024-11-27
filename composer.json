@@ -1,0 +1,9 @@
+{
+    "name": "lcbrq/openmage-pushpushgo",
+    "license": ["MIT"],
+    "type": "magento-module",
+    "description": "Magento 1 / OpenMage module skeleton for PushPushGo integration",
+    "extra": {
+        "magento-root-dir": "test/"
+    }
+}
