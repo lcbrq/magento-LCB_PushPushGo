@@ -2,10 +2,9 @@
 
 class LCB_PushPushGo_Block_Index extends Mage_Core_Block_Template
 {
-
     /**
      * Get PushPushGo script file name
-     * 
+     *
      * @return string
      */
     public function getJsKey()
@@ -26,5 +25,4 @@ class LCB_PushPushGo_Block_Index extends Mage_Core_Block_Template
 
         return parent::_toHtml();
     }
-
 }
